@@ -1,0 +1,165 @@
+/* { margin: 0px;}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    
+   }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #cecdc9;
+    padding: 15px;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+a:hover {
+    color: #0FB7A1;
+} */
+
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+
+    height: 70px;
+    align-items: center;
+
+
+}
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li a {
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400px;
+    font-style: normal;
+    color: #cecdc9;
+
+}
+
+a:hover {
+    color: #0FB7A1;
+}
+
+/*section {
+    height: 50;
+    background-color: red;
+} pourquoi ce n'est pas possible de changer la taille de la section?*/
+
+
+
+.titre {
+    text-align: center;
+    font-family: 'Work Sans';
+    font-size: xx-large;
+    font-style: initial;
+    color: #00B3B5;
+}
+
+.para {
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: #747474;
+    line-height: 2em;
+    margin-left: 170px;
+    margin-right: 170px;
+    column-gap: 20px;
+
+
+}
+
+/*blocs descriptifs*/
+
+.blocdes {
+    display: flex;
+    /*pourquoi le inline-block ne fonctionne pas ici*/
+
+
+    height: 350px;
+
+    margin-top: 60px;
+
+    margin-left: 170px;
+    margin-right: 170px;
+    column-gap: 20px;
+}
+
+.blocdes h1 {
+    font-family: "Work Sans";
+    font-size: 26px;
+    color: white;
+}
+
+.blocdes h2 {
+    font-family: "Work Sans";
+    font-size: 20px;
+    color: white;
+}
+
+.forpatients {
+    background-color: #19D1B9;
+
+    border-radius: 10%;
+    padding: 20px;
+
+
+}
+
+.fordoctors {
+    background-color: #5190E2;
+
+    border-radius: 10%;
+    padding: 20px;
+
+}
+
+.forclinics {
+    background-color: #212D3A;
+
+    border-radius: 10%;
+    padding: 20px;
+
+
+}
+
+/*Zone logos*/
+
+.zonelogos { 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.zonelogos h1 {font-family: "Roboto";
+    font-style: initial;
+    color: #00B3B5;
+font-size: xx-large;
+font-weight: 200;}
